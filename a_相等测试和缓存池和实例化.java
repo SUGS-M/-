@@ -16,6 +16,8 @@ public class a_相等测试和缓存池和实例化 {
         int e = 100;
         Integer f = 100;
         System.out.println(e == f);            //ture   自动拆箱[成了基本类型比较]
+        System.out.println("1");               
+        System.out.println(f == e);            //ture   自动拆箱[成了基本类型比较]
         System.out.println(f.equals(e));       //true   自动装箱[成了包装类比较]
 
         int g = 1000;

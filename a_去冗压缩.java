@@ -49,6 +49,6 @@ public class a_去冗压缩 {
 }
 /**考察内容：字符串+变长字符串；字符串匹配
  * 字符串[chatAt(i)]
- * 变长字符串[append(value)]
+ * 变长字符串[append(value)，toString]
  * 设计思路[i++]
  */
